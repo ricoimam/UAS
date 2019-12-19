@@ -3,14 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <item android:id="@+id/action_food"
-        android:title="Makanan"
-        android:icon="@drawable/ic_food" />
-    <item android:id="@+id/action_movie"
-        android:title="Movie"
-        android:icon="@drawable/ic_movie" />
-    <item android:id="@+id/action_discount"
-        android:title="Discount"
-        android:icon="@drawable/ic_discount" />
+    <item android:id="@+id/home"
+        android:title=""
+        android:icon="@drawable/sepatu" />
+    <item android:id="@+id/sport"
+        android:title=""
+        android:icon="@drawable/sport_logo" />
+    <item android:id="@+id/sneakers"
+        android:title=""
+        android:icon="@drawable/sneaker_logo" />
+    <item android:id="@+id/loc"
+        android:title=""
+        android:icon="@drawable/loc" />
+    <item android:id="@+id/user"
+        android:title=""
+        android:icon="@drawable/user" />
 
 </menu>

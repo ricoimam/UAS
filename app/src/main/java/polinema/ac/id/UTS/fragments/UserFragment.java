@@ -1,7 +1,5 @@
-package polinema.ac.id.androiduistarter.fragments;
+package polinema.ac.id.UTS.fragments;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,18 +8,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import polinema.ac.id.androiduistarter.R;
+import polinema.ac.id.UTS.R;
 
 ///**
 // * A simple {@link Fragment} subclass.
 // * Activities that contain this fragment must implement the
-// * {@link Discountfragment.OnFragmentInteractionListener} interface
+// * {@link PizzaFragment.OnFragmentInteractionListener} interface
 // * to handle interaction events.
 // */
-public class Discountfragment extends Fragment {
+public class UserFragment extends Fragment {
 
 
-    public Discountfragment() {
+    public UserFragment() {
         // Required empty public constructor
     }
 
@@ -30,6 +28,7 @@ public class Discountfragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_discountfragment, container, false);
+        return inflater.inflate(R.layout.fragment_user, container, false);
     }
+
 }

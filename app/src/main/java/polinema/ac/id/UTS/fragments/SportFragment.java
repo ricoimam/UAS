@@ -1,4 +1,4 @@
-package polinema.ac.id.androiduistarter.fragments;
+package polinema.ac.id.UTS.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,18 +10,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import polinema.ac.id.androiduistarter.R;
+import polinema.ac.id.UTS.R;
 
-///**
-// * A simple {@link Fragment} subclass.
-// * Activities that contain this fragment must implement the
-// * {@link Moviefragment.OnFragmentInteractionListener} interface
-// * to handle interaction events.
-// */
-public class Moviefragment extends Fragment {
+public class SportFragment extends Fragment {
+    // TODO: Rename parameter arguments, choose names that match
 
 
-    public Moviefragment() {
+    public SportFragment() {
         // Required empty public constructor
     }
 
@@ -30,7 +25,8 @@ public class Moviefragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_moviefragment, container, false);
+        return inflater.inflate(R.layout.fragment_sport, container, false);
     }
+
 
 }

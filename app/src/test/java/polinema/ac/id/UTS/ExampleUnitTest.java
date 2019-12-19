@@ -1,4 +1,4 @@
-package polinema.ac.id.androiduistarter;
+package polinema.ac.id.UTS;
 
 import org.junit.Test;
 

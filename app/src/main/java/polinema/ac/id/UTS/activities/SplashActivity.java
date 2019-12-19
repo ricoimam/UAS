@@ -1,4 +1,4 @@
-package polinema.ac.id.androiduistarter.activities;
+package polinema.ac.id.UTS.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import polinema.ac.id.androiduistarter.R;
+import polinema.ac.id.UTS.R;
 
 public class SplashActivity extends AppCompatActivity {
 

@@ -1,6 +1,6 @@
 package polinema.ac.id.UTS.activities;
 
-import androidx.annotation.NonNull;
+//import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     }
 
     @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+    public boolean onNavigationItemSelected (MenuItem menuItem) {
         Fragment fragment = null;
         switch (menuItem.getItemId()) {
             case R.id.home:

@@ -12,8 +12,8 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="130dp"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
             android:src="@drawable/meat" />
 
 
@@ -23,7 +23,7 @@
             android:layout_marginTop="20dp"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:text="Temukan Sepatu Idaman Anda di Garage Second"
+            android:text="Temukan Sepatu Idaman Anda di SEPATU JEBOL's"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="20sp" />
